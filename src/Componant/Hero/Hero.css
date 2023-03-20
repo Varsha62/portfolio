@@ -1,0 +1,60 @@
+.hero{
+    display: flex;
+    /*  */
+    background-color: #D1CCF2;
+    
+    
+}
+.heroRoot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding-top: 10rem; */
+    margin:10rem;
+    width: 100%;
+    justify-content: space-around;
+    gap: 5rem;
+    /* border: 2px solid blue; */
+}
+.heroRootDiv {
+    display: flex;
+    flex-direction: column;
+
+}
+.heroContant{
+   padding-bottom: 10px;
+   font-size: 2rem;
+   color: #0B0B48;
+}
+.heroContantSub{
+    /* padding: 15px; */
+    color: #6A68D7;
+    padding-bottom: 180px;
+}
+.heroContantSub {
+    font-size: 1.4rem;
+}
+.HeroImg{ 
+    width: 400px;
+    height: 400px;
+    /* padding-top: 160px; */
+    /* border: 2px solid red; */
+    
+}
+.heroButton>button{
+   background:#49317D;
+   padding: 1.2rem;
+   border-radius: 30px;
+   
+}
+.heroButton1{
+    color: #D1CCF2;
+    font-size: 1rem;
+    border: rgb(44, 124, 150) solid;
+   
+}
+.heroButton1:hover{
+    cursor: pointer;
+    color: yellow;
+    /* transform: translateY(-10px) scale(1.1); */
+}

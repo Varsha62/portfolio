@@ -1,0 +1,54 @@
+.contact-form {
+    display: flex;
+    height: 70vh;
+    margin-top: 4rem;
+    padding: 3rem 3rem 0;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.c-right {
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    position: relative;
+}
+.c-right>form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.c-right .user {
+    border: 2px solid #6A68D7;
+    border-radius: 8px;
+    font-size: 16px;
+    height: 2.2rem;
+    outline: none;
+    padding: .3em;
+    width: 20rem;
+}
+.awesome>:first-child {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.awesome>:nth-child(2) {
+    color:#6A68D7;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.button {
+    /* background: linear-gradient(180deg,#fdc50f 26.71%,#fb982f 99.36%); */
+   background-color: #0B0B48;
+    border: none;
+    border-radius: 34px;
+    color: #fff;
+    font-size: 13px;
+    padding: 11px 26px;
+    width: 7.7rem;
+}

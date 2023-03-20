@@ -1,0 +1,32 @@
+.about{
+    background: #D1CCF2;
+    ;
+}
+.aboutSkill{
+    color: #0B0B48;
+    border-radius: 12px;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 15px;
+    border: 3px solid #3D1766;
+    box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    
+}
+
+.aboutSkillTitle{
+    padding-bottom: 50px;
+    
+}
+.aboutSkill:hover {
+    transform: translateY(-4px) scale(1.1);
+    border: 2px solid white;
+    
+}
+.aboutSkill>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
