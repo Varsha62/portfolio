@@ -8,7 +8,7 @@
     width: 100%;
     padding: 20px 10px 30px 20px;
     margin: 0px;
-    z-index: 100;
+    z-index: 50;
     box-shadow: 2px 4px 39px 0px rgba(0, 0, 0, 0.83);
     -webkit-box-shadow: 2px 4px 39px 0px rgba(0, 0, 0, 0.83);
     -moz-box-shadow: 2px 4px 39px 0px rgba(0, 0, 0, 0.83);
