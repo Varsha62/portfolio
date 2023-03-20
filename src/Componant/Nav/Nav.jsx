@@ -39,7 +39,7 @@ const Nav = () => {
               </Link>
             </li>
             <li>
-              <Link activeClass="active" to="test1" smooth={true} >
+              <Link activeClass="active" to="Contact" smooth={true} >
                 CONTACT US
               </Link>
 
