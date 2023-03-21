@@ -1,9 +1,11 @@
 import React from 'react'
+import Education from '../Education/Education'
 import './About.css'
 
 
 const About = () => {
     return (
+        <>
         <section className='aboutRoot' id='About'>
 
             <h1 className='aboutMain'>ABOUT</h1>
@@ -15,6 +17,9 @@ const About = () => {
             </p>
             
         </section>
+
+        <Education/>
+        </>
     )
 }
 

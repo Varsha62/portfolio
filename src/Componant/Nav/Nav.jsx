@@ -1,5 +1,5 @@
 import React from 'react';
-import Image_Main from './nav_Logo.png'
+import Image_Main from './navLogo.png'
 import "./Nav.css"
 import { Link } from 'react-scroll';
 
