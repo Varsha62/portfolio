@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Image_Main from './image/c.png'
 import Image_Main1 from './image/cpp.jpg'
 import Image_Main2 from './image/python.jpg'
-// import Image_Main3 from './image/React.jpg'
+import Image_Main3 from './image/React.jpg'
 import Image_Main4 from './image/web_development.png'
 import Image_Main5 from './image/Ds_and_algo.jpg'
 
@@ -54,9 +54,9 @@ const Skill = () => {
               <img src={Image_Main2} />
             </SwiperSlide>
 
-            {/* <SwiperSlide className="SKillImg_4">
+            <SwiperSlide className="SKillImg_4">
               <img src={Image_Main3} />
-            </SwiperSlide> */}
+            </SwiperSlide>
 
             <SwiperSlide className="SkillImg_5">
               <img src={Image_Main4} />

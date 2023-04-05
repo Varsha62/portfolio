@@ -5,7 +5,8 @@ import About from './Componant/About/About.jsx';
 import ProjectName from './Componant/ProjectName/Project.jsx';
 import Skill from './Componant/Skills/Skill';
 import Contact from './Componant/Contact/Contact.jsx';
-import Education from './Componant/Education/Education';
+import Footer from './Componant/Footer/Footer.jsx';
+
 
 function App() {
   return (
@@ -13,10 +14,10 @@ function App() {
       <Nav/>
       <Hero/>
       <About/>
-      
       <Skill/>
       <ProjectName/>
       <Contact/>
+      <Footer/>
     </>
   );
 }

@@ -9,26 +9,24 @@
    
 }
 .projectDiv:hover {
-    transform: translateY(-4px) scale(1.1);
+    /* transform: translateY(-4px) scale(1.1); */
     border: 2px solid white;
     
 }
 .project{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 2rem;
-    padding-bottom: 10%;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    padding: 1rem;
+    flex-direction: row;
     
 }
 .projectDiv {
     box-shadow: 6px 6px;
-    height: 10rem;
-    width: 10rem;
+    height: 300px;
+    width: 300px;
     background-color: #0B0B48;
-    color: rgb(139, 141, 141);
-   
- 
-   
+    color: rgb(139, 141, 141)  
     
 }

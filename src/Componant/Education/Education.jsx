@@ -10,27 +10,27 @@ const Education = () => {
     className="vertical-timeline-element--work"
     contentStyle={{ background: '#0B0B48', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  #0B0B48' }}
-    date="2011 - present"
+    date="2020 - present"
     iconStyle={{ background: '#0B0B48', color: '#fff' }}
     // icon={"1."}
   >
-    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+    <h3 className="vertical-timeline-element-title">B.Tech</h3>
+    <h4 className="vertical-timeline-element-subtitle">Government Engineering College, Bilaspur</h4>
     <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+      Data Structure and Algorithm, Operating System, Computer Network, COA, DBMS
     </p>
   </VerticalTimelineElement>
 
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="November 2012"
+    date="2018-2020"
     iconStyle={{ background: '#54547e', color: '#fff' }}
     // icon={"2."}
   >
-    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+    <h3 className="vertical-timeline-element-title">Diploma in Computer Science</h3>
+    <h4 className="vertical-timeline-element-subtitle">Government Girls Polytechnic College, Bilaspur</h4>
     <p>
-      Creative Direction, User Experience, Visual Design
+    Data Structure and Algorithm, Operating System, Computer Network, COA, DBMS
     </p>
   </VerticalTimelineElement>
   
