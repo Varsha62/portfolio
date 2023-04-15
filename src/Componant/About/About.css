@@ -1,5 +1,5 @@
 .aboutRoot{
-    /* border: blueviolet solid 10px; */
+    
     background-color: #D1CCF2;
     display: flex;
     flex-direction: column;
@@ -17,4 +17,19 @@
     padding-top: 30px;
     padding-bottom: 25px;
     font-size: 25px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .aboutMain {
+        padding-top: 80px;
+    }
+    
+    .aboutIntro {
+        font-size: 20px;
+        padding: 15px;
+        text-align: center;
+    }
 }

@@ -1,4 +1,4 @@
-.projectRoot{
+/* .projectRoot{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
    
 }
 .projectDiv:hover {
-    /* transform: translateY(-4px) scale(1.1); */
+    
     border: 2px solid white;
     
 }
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* border: 2px solid red; */
+    
     padding: 1rem;
     flex-direction: row;
     
@@ -29,4 +29,76 @@
     background-color: #0B0B48;
     color: rgb(139, 141, 141)  
     
+} */
+
+/* responsive */
+
+/* .projectRoot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 6%;
+    color: #0B0B48;
+    padding-top: 10%;
 }
+
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.projectDiv {
+    box-shadow: 6px 6px;
+    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    background-color: #0B0B48;
+    color: rgb(139, 141, 141)  
+}
+
+.projectDiv:hover {
+    border: 2px solid white;
+} 
+
+ */
+
+ .projectRoot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 6%;
+    color: #0B0B48;
+    padding-top: 10%;
+}
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem;
+}
+.projectDiv:hover {
+    border: 2px solid white;
+}
+.projectDiv {
+    box-shadow: 6px 6px;
+    height: 300px;
+    width: 300px;
+    background-color: #0B0B48;
+    color: rgb(139, 141, 141);
+}
+@media only screen and (max-width: 768px) {
+    .project {
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .projectDiv {
+        height: 300px;
+        width: 290px;
+    }
+}
+

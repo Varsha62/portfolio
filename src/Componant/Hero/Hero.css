@@ -53,11 +53,11 @@
     cursor: pointer;
     color: yellow;
     
-}
+}  
 
 /* ------responsive------ */
 /* For screens smaller than 600px (mobile devices) */
-@media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     .heroRoot{
         flex-direction: column;
         margin:5rem;
@@ -67,13 +67,20 @@
     .HeroImg{ 
         width: 250px;
         height: 250px;
+        
     }
     
     .heroContant{
        font-size: 1.5rem;
+       padding-top: 4rem;
     }
     
     .heroContantSub {
         padding-bottom: 50px;
     }
-}
+}  
+
+
+
+
+
